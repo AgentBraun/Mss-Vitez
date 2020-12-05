@@ -11,14 +11,8 @@ body > div { flex: 1; }
 
 .normal-page {
 
-    background-image: url(Slike/pozadina2.png);
+    background-image: url(slike/pozadina2.png);
 
-}
-
-.page {
-   margin-top: 2%;
-   margin-left: 5%;
-   margin-right: 5%;
 }
 
 a {
@@ -31,34 +25,16 @@ a {
     background-color: rgba(229, 162, 22, 0.95 );
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    padding: 60px;
+    padding: 3%;
+    margin: auto;
+    width: 80%;
 }
 
 .naslovILogo h1{
     text-align: center;
     font-weight: 800;
     font-family: sans-serif;
-    width: 40%;
     margin: auto;
-}
-
-.Navigacija {
-    background-color: rgba(0, 0, 0, 0.80 );
-    padding: 20px;
-    text-align: center;
-    border: solid rgba(229, 162, 22, 1 ) 5px ;
-}
-
-li {
-    display: inline-block;
-    font-family: sans-serif;
-    padding-right:30px ;
-    font-size: 30px;
-    transition: all 0.3s;
-}
-
-li:hover{
-    transform: scale(1.2);
 }
 
 .Lndg-page {
@@ -84,16 +60,24 @@ li:hover{
     transition: all 0.3s;
     font-family: sans-serif;
     border-color: #3c3c3b ;
+    background-color: rgba(229, 162, 22, 0.95);
+    color: #3c3c3b ;
+    font-family: sans-serif;
 }
 
 .btn:hover {
-    color: darkorange;
+    color: rgba(229, 162, 22, 0.95);
     background-color: #3c3c3b;
     text-decoration: none;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    border-color:rgba(229, 162, 22, 0.95);
     
 }
 
+.page {
+    width: 80%;
+    margin-top: 1%;
+}
 
 .Lndg-logo img {
     width: 30%;
@@ -101,4 +85,30 @@ li:hover{
 
 .Lndg-head {
     margin-top: 3%;
+}
+
+.dropdown {
+    padding-right: 20px;
+}
+
+.nav-item {
+    padding-right: 20px;
+    color: rgba(229, 162, 22);
+}
+
+.bg-light {
+    background-color:#3c3c3b !important;
+}
+
+.Logo img {
+    size:100px;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(229, 162, 22);
 }
