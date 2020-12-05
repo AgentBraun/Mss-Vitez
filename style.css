@@ -11,7 +11,7 @@ body > div { flex: 1; }
 
 .normal-page {
 
-    background-image: url(/Users/allen/Desktop/testni\ sajt/Slike/pozadina2.png);
+    background-image: url(Slike/pozadina2.png);
 
 }
 
@@ -62,7 +62,7 @@ li:hover{
 }
 
 .Lndg-page {
-    background-image: url(/Users/allen/Desktop/testni\ sajt/Slike/Landing-bckg.jpg);
+    background-image: url(slike/Landing-bckg.jpg);
 }
 
 .Lndg-header {
