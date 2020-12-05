@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html { height: 100%; }
+body { height: 100%; display: flex; }
+body > div { flex: 1; }
+
+
+
+.normal-page {
+
+    background-image: url(/Users/allen/Desktop/testni\ sajt/Slike/pozadina2.png);
+
+}
+
+.page {
+   margin-top: 2%;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.naslovILogo {
+    background-color: rgba(229, 162, 22, 0.95 );
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 60px;
+}
+
+.naslovILogo h1{
+    text-align: center;
+    font-weight: 800;
+    font-family: sans-serif;
+    width: 40%;
+    margin: auto;
+}
+
+.Navigacija {
+    background-color: rgba(0, 0, 0, 0.80 );
+    padding: 20px;
+    text-align: center;
+    border: solid rgba(229, 162, 22, 1 ) 5px ;
+}
+
+li {
+    display: inline-block;
+    font-family: sans-serif;
+    padding-right:30px ;
+    font-size: 30px;
+    transition: all 0.3s;
+}
+
+li:hover{
+    transform: scale(1.2);
+}
+
+.Lndg-page {
+    background-image: url(/Users/allen/Desktop/testni\ sajt/Slike/Landing-bckg.jpg);
+}
+
+.Lndg-header {
+    text-transform: uppercase;
+}
+
+.Lndg-header h1 {
+    color:#3c3c3b;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.hr {
+    border-width: 10px;
+}
+
+.btn {
+    padding: 15px;
+    transition: all 0.3s;
+    font-family: sans-serif;
+    border-color: #3c3c3b ;
+}
+
+.btn:hover {
+    color: darkorange;
+    background-color: #3c3c3b;
+    text-decoration: none;
+    transform: scale(1.2);
+    
+}
+
+
+.Lndg-logo img {
+    width: 30%;
+}
+
+.Lndg-head {
+    margin-top: 3%;
+}
